@@ -12,7 +12,7 @@ Use the server to build a node for unlocking NetEase Cloud Music.
 
 1. Server: [Alibaba Cloud Elastic Computer Service](https://www.aliyun.com/product/swas)
 
-2. Mirror system: CentOS 7.6
+2. system: CentOS 7.6
 
 3. SSH Tool: [FinalShell](http://www.hostbuf.com/t/988.html) or [BT](https://www.bt.cn)
 
@@ -33,6 +33,8 @@ Use the server to build a node for unlocking NetEase Cloud Music.
   - [x] [docker](https://github.com/chiupam/Notes/blob/master/NeteaseMusic/Docker_ios.md)
 
 - [x] [pm2 Common commands](https://github.com/chiupam/Notes/blob/master/NeteaseMusic/pm2_commands.md)
+
+- [x] [fix docker can't play](https://github.com/chiupam/Notes/blob/master/NeteaseMusic/docker_fix.md)
 
 ### 👨‍💻 Reference
 
