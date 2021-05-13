@@ -1,6 +1,15 @@
 ## 解决方法
 
-其中, `<name>` 修改为容器名, `<port>` 修改为端口号
+1. 先安装 wget 和 unzip（如果已安装请跳过）
+
+```
+yum install wget
+yum install unzip
+```
+
+2. 下载修复包并重建、重启容器
+
+> 其中, `<name>` 修改为容器名, `<port>` 修改为端口号
 
 ```
 cd && wget -P /root/ https://github.com/pan93412/UnblockNeteaseMusic/archive/refs/heads/fixes/providers-0501.zip
