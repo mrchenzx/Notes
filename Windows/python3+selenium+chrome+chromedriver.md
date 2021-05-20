@@ -37,7 +37,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip --user
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple selenium --user
 ```
 
-### 三、下载 chrome 浏览器
+## 三、下载 chrome 浏览器
 
 1. 进入 chrome 官方下载网址 https://www.google.com/intl/zh-CN/chrome/
 
