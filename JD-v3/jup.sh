@@ -451,7 +451,7 @@ update_scripts () {
     if [ -d $dir_scripts/.git ]; then
         git_pull_scripts $dir_scripts
     else
-        git_clone_scripts $url_scripts $dir_scripts "master"
+        git_clone_scripts $url_scripts $dir_scripts "main"
     fi
 
     if [[ $exit_status -eq 0 ]]; then
