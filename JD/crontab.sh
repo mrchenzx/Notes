@@ -5,9 +5,14 @@ if [ ! -d "/ql" ];then
 else
     dir_root=/ql
 fi
-dir_docker=$dir_root/scripts/docker
-file_name="crontab_list.sh"
-url="https://ghproxy.com/https://raw.githubusercontent.com/chiupam/Notes/master/JD/crontab_list.sh"
+dir_scripts=$dir_root/scripts
+cd $dir_scripts
+if [ ! -d "/docker" ];then
+    mkdir "docker"
+fi
+dir_docker=$dir_scripts/docker
 cd $dir_root
+url="https://ghproxy.com/https://raw.githubusercontent.com/chiupam/Notes/master/JD/crontab_list.sh"
 wget $url
+file_name="crontab_list.sh"
 mv -f $file_name $dir_docker
